@@ -170,7 +170,7 @@ test each method.
 
 If your extension contains class that doesn't depend on WordPress components, like
 `class-wc-example-extension-price-emoji.php`, then you can properly unit test that
-class. See [tests/test-class-wc-example-extension-price-emoji.php](test-class-wc-example-extension-price-emoji.php)
+class. See [`tests/test-class-wc-example-extension-price-emoji.php`](tests/test-class-wc-example-extension-price-emoji.php)
 as an example.
 
 #### Mocking HTTP Request
