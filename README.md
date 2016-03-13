@@ -32,9 +32,9 @@ and change directory to your WordPress installation, e.g. `cd /srv/www/wordpress
    ├── bin
    │   └── install-wp-tests.sh
    ├── phpunit.xml.dist
-   ├── tests
-   │   ├── bootstrap.php
-   │   └── test-sample.php
+   └── tests
+       ├── bootstrap.php
+       └── test-sample.php
    ```
 
 2. Install WordPress and the WP Unit Test library using the `bin/install-wp-tests.sh`
