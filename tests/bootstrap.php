@@ -9,7 +9,7 @@ require_once $_tests_dir . '/includes/functions.php';
 
 function _manually_load_plugin() {
 	require dirname( dirname( __FILE__ ) ) . '/wc-example-extension.php';
-	require dirname( dirname( __FILE__ ) ) . '../../woocommerce/woocommerce.php';
+	require dirname( dirname( __FILE__ ) ) . '/../../woocommerce/woocommerce.php';
 }
 tests_add_filter( 'muplugins_loaded', '_manually_load_plugin' );
 
